@@ -1,3 +1,7 @@
+*{
+    
+    padding: 0px;
+}
 .navbar{
     margin: auto;
     display: flex;
@@ -11,6 +15,7 @@ section{
     height: 500px;
     background:white;
     margin: 0px;
+    display: flex;
 }
 .box{
     width: 100%;
@@ -41,6 +46,11 @@ h1{
     background-color: black;
     color: white;
     padding: 15px;
+    
+}
+.h01{
+    background-color: black;
+    width: 100%;
 }
 h5{
     font-size: 22px;
@@ -61,6 +71,9 @@ body{
     width: 250px;
     background: #90ee90;
     border-radius: 5px;
+    position: relative;
+    right: 400px;
+    bottom: -220px;
 }
 .divide{
     height: 30px;
