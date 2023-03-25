@@ -11,7 +11,6 @@ section{
     height: 500px;
     background:white;
     margin: 0px;
-    background-image: url(/image/img.jpg.jpeg);
 }
 .box{
     width: 100%;
@@ -48,7 +47,6 @@ h5{
     padding: 20px;
 }
 body{
-    background-image: url(/image/img.jpg.jpeg);
     background-repeat: no-repeat;
 
     justify-content: center;
@@ -81,10 +79,15 @@ a{
 
 }
 .ul2 a:hover{
+    background-color: white;
+}
+.apply a:hover{
     background-color: #6fd649;
 }
 .sub{
-    width: 170px;
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
 }
 span{
     color: #6fd649;
@@ -94,6 +97,8 @@ span{
     background: #6fd649;
     width: 100%;
     height: 50px;
+    margin: 0%;
+    padding: 0%;
 }
 .lp{
     color: white;
